@@ -24,47 +24,68 @@
                 </ul>
             </nav>
         </header>
-            <main>
-                <section class="formulario">    
-                    <form>
-                        <div>
-                            <label for="nombre">ingresa tu nombre
-                            <input type=""placeholder="ingrese su nombre completo"required name="nombre" id="nombre">
-                            </label>
-                        </div>
-
-                        <div>
-                            <label for="apellido">ingresa tu apelldo
-                            <input type=""placeholder="ingrese su apellido"required name="apellido" id="apellido">
-                            </label>
-                        </div>
-                        <div>
-                            <label for="pass">Contraseña:
-                                <input type="password"placeholder="ingrese un password de 8 digitos"required name="pass"id="pass">
-                            </label>
-                        </div>
-                        <div>
-                            <label for="email">Email:
-                                <input type="email" name="email" id="email"required placeholder="ingrese un email valido">
-                            </label>
-                        </div>
-                        <div>
-                            <label for="provincia">ingrese en que provincia vive:
-                                <select name="provincia" id="provincia">
-                                    <option value="1">Buenos Aires</option>
-                                    <option value="2"selected>Capital Federal</option>
-                                </select>
-                            </label>
-                        </div>
-                        <div>
-                            <input type="reset"value="limpiar formulario">
-                            <input type="submit"value="enviar formulario">
-                        </div>
-
-                    </form>
-                    <hr>
-                </section>
-            </main>
+        <main class="mainFormulario">
+            <section class="formulario">
+                <form>
+                    <div>
+                        <label for="nombre">Ingresa tu nombre
+                            <input type="text" placeholder="Ingrese su nombre completo" required name="nombre" id="nombre">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="apellido">Ingresa tu apellido
+                            <input type="text" placeholder="Ingrese su apellido" required name="apellido" id="apellido">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="email">Email:
+                            <input type="email" name="email" id="email" required placeholder="Ingrese un email válido">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="pass">Contraseña:
+                            <input type="password" placeholder="Ingrese un password de 8 dígitos" required name="pass" id="pass">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="provincia">Ingresa en qué provincia vives:
+                            <select name="provincia" id="provincia">
+                                <option value="1">Buenos Aires</option>
+                                <option value="2" selected>Capital Federal</option>
+                                <option value="3">Catamarca</option>
+                                <option value="4">Chaco</option>
+                                <option value="5">Chubut</option>
+                                <option value="6">Córdoba</option>
+                                <option value="7">Corrientes</option>
+                                <option value="8">Entre Ríos</option>
+                                <option value="9">Formosa</option>
+                                <option value="10">Jujuy</option>
+                                <option value="11">La Pampa</option>
+                                <option value="12">La Rioja</option>
+                                <option value="13">Mendoza</option>
+                                <option value="14">Misiones</option>
+                                <option value="15">Neuquén</option>
+                                <option value="16">Río Negro</option>
+                                <option value="17">Salta</option>
+                                <option value="18">San Juan</option>
+                                <option value="19">San Luis</option>
+                                <option value="20">Santa Cruz</option>
+                                <option value="21">Santa Fe</option>
+                                <option value="22">Santiago del Estero</option>
+                                <option value="23">Tierra del Fuego</option>
+                                <option value="24">Tucumán</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div>
+                        <input type="reset" value="Limpiar formulario">
+                        <input type="submit" value="Enviar formulario">
+                    </div>
+                </form>
+                <hr>
+            </section>
+        </main>
+        
             <footer class="footerColor">
                     <section class="footerSuscribite">
                     <div>               
@@ -92,15 +113,19 @@
                         <i class="fa-brands fa-whatsapp"></i></a>
                     
                         <h3>NECESITAS AYUDA</h3>
+                        <div class="mensaje-container">
+                            <input type="text" placeholder="Escribe aquí tu mensaje" class="input-mensaje">
+                            <button class="boton-enviar">Enviar</button>
+                        </div>
     
                         <div class="footerReservado">
-                            <a href="./contactos.html">
+                            <a href="./pages/contactos.html">
                             <h3>CONTACTATE CON NOSOTROS</h3> 
                             </a>
-                            <p><b>Direccion:</b> Rumania 2750 (CABA)</p>
-                            <p><b>correo elecronico:</b>Frantelmo@hotmail.com</p>
-                            <p><b>Telefono:</b> 1165327970</p>
-                            <p><b>Cuchillos Criollos Nievas</b> todos los derechos son reservados 2024</p>
+                            <p><span class="fuenteNegrita">Direccion:</span> Rumania 2750 (CABA)</p>
+                            <p><span class="fuenteNegrita">correo elecronico:</span> Frantelmo@hotmail.com</p>
+                            <p><span class="fuenteNegrita">Telefono:</span> 1165327970</p>
+                            <p><span>Cuchillos Criollos Nievas</span> todos los derechos son reservados 2024</p>
                         </div>
                 </footer>    
             </body>

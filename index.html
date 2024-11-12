@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="./css/estilos.css">    
 </head>
     <body>
-        <header id="header" class="header">
-            <h1>Cuchillos Criollos Nievas</h1>
-                <a href="./index.html">
-                <img class="logo" src="./assets/img/cuchillo-vegetal fondo.png" alt="logo de un cuchillo"width 200 px>
-                </a>
+        <header>
+            <div class="header-container">
+                <img src="./favicon.ico" alt="Logo" class="logo">
+                <h1>Cuchillos Criollos Nievas</h1>
+            </div>
             <nav class="navheader">
                 <ul class="ulHeader">
                     <li class="listaItem"><a class="linkHeader" href="./index.html">Inicio</a></li> 
@@ -103,11 +103,13 @@
                 </div>
                 </div>
             </section>           
-            <section id="nosotros" class="nosotrosText">
-                    <Div>                
-                    <h2>SOBRE NOSOTROS</h2>
-                    <h3>"Cuchillos Criollos Nievas"</h3>
-                    <img src="./assets/img/imgNievas.jpeg" alt="padre e hijo nievas">
+            <section id="nosotros">
+                <div class="nosotros-container">
+                <h2>SOBRE NOSOTROS</h2>
+                <h3>"Cuchillos Criollos Nievas"</h3>
+                <img src="./assets/img/imgNievas.jpeg" alt="padre e hijo nievas">
+                <Div class="nosotrosText"> 
+                    <h2>Cuchillos Criollos Nievas</h2>
                     <p>Somos un emprendimiento artesanal creado por padre e hijo allá por el año 2000 
                     donde exponíamos nuestros cuchillos y trabajos como pilcheros alrededor de 
                     toda la argentina en  Jineteadas, ferias y fiestas patronales.</p> 
@@ -133,7 +135,8 @@
                     Cada trabajo es una obra de arte unica, forjada con la 
                     experiencia y el amor por la tradición que nos caracteriza. 
                     <b>¡Elija el suyo y lleve consigo un pedazo de historia argentina!</b></p>
-                </Div>             
+                </Div>
+                </div>             
             </section>
             <section>
                 <div>
@@ -173,15 +176,20 @@
                     <i class="fa-brands fa-whatsapp"></i></a>
                 
                     <h3>NECESITAS AYUDA</h3>
+                    <div class="mensaje-container">
+                        <input type="text" placeholder="Escribe aquí tu mensaje" class="input-mensaje">
+                        <button class="boton-enviar">Enviar</button>
+                    </div>
+                    
 
                     <div class="footerReservado">
                         <a href="./pages/contactos.html">
                         <h3>CONTACTATE CON NOSOTROS</h3> 
                         </a>
-                        <p><b>Direccion:</b> Rumania 2750 (CABA)</p>
-                        <p><b>correo elecronico:</b>Frantelmo@hotmail.com</p>
-                        <p><b>Telefono:</b> 1165327970</p>
-                        <p><b>Cuchillos Criollos Nievas</b> todos los derechos son reservados 2024</p>
+                        <p><span class="fuenteNegrita">Direccion:</span> Rumania 2750 (CABA)</p>
+                        <p><span class="fuenteNegrita">correo elecronico:</span> Frantelmo@hotmail.com</p>
+                        <p><span class="fuenteNegrita">Telefono:</span> 1165327970</p>
+                        <p><span>Cuchillos Criollos Nievas</span> todos los derechos son reservados 2024</p>
                     </div>
             </footer>    
         </body>
