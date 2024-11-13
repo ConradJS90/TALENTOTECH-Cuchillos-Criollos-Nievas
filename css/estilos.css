@@ -70,15 +70,18 @@ header {
     margin-bottom: 5px;
 }
 
-.header-container h1 {
-    font-size: 2rem;
-    margin: 0;
-}
-
 .logo {
     width: 50px;
-    vertical-align: middle; 
+    vertical-align: middle;
 }
+
+.header-h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding-left: 10px; /* Espacio entre el logo y el título */
+    color: rgb(255, 255, 255);
+}
+
 
 
 .navheader {
